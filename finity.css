@@ -1,0 +1,23 @@
+.sho{
+    width: 1920px;
+    height: 1458px;
+    background-color: black;
+}
+.pot{
+    text-align: center;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    background: linear-gradient(104deg, #54D6FF 13.23%, #C275FF 56.28%, #F36AFF 91.95%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.chech{
+    width: 2314px;
+height: 39px;
+transform: rotate(1.859deg);
+flex-shrink: 0;
+background: linear-gradient(270deg, #FC84FF -4.35%, #54D1FA 102.87%);
+}
