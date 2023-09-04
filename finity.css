@@ -1,0 +1,32 @@
+.futerfuter{
+    height: 100%;
+    width: 2560px;
+    background-color: black;
+}
+.futercarts{
+    margin-top: 62.49px;
+    margin-left: 721px;
+}
+.futertecst{
+    margin-top: 143.75px;
+    margin-left: 678px; 
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+}
+.futertecst2{
+    width: 388px;
+    height: 66.345px;
+    flex-shrink: 0;
+}
+.leftulfuter{
+font-size: 16px;
+font-weight: 500;
+display: flex;
+width: 93px;
+height: 151.789px;
+gap: 25px;
+flex-shrink: 0;
+margin-left: 1289px;
+margin-top: 79.77px;
+color: azure;
+}
