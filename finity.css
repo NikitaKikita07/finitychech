@@ -1,6 +1,6 @@
 .futerfuter{
     height: 100%;
-    width: 2560px;
+    width: 100%;
     background-color: black;
 }
 .futercarts{
@@ -12,21 +12,65 @@
     margin-left: 678px; 
     color: rgb(255, 255, 255);
     font-size: 10px;
+color: var(--main-white, #FFF);
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%;
 }
 .futertecst2{
     width: 388px;
     height: 66.345px;
     flex-shrink: 0;
+    color: var(--main-white, #FFF);
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
 }
 .leftulfuter{
-font-size: 16px;
-font-weight: 500;
-display: flex;
-width: 93px;
-height: 151.789px;
-gap: 25px;
-flex-shrink: 0;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    width: 93px;
+    height: 151.789px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    flex-shrink: 0;
+    color: azure;
+}
+.futercarts3{
 margin-left: 1289px;
 margin-top: 79.77px;
-color: azure;
+}
+.futercarts4{
+    margin-left: 1289px;
+margin-top: 79.77px;
+margin-bottom: 108.21px;
+    display: flex;
+    width: 100px;
+    height: 107.559px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    flex-shrink: 0;
+    color: azure;
+}
+.futer9{
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: var(--Gradient-1, linear-gradient(104deg, #FC84FF 13.23%, #54D1FA 91.95%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.futer7{
+    margin-left: 1537px;
+    margin-top: 79.41px;
 }
