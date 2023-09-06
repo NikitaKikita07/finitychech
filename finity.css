@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main_roma{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(104deg, #54D6FF 13.23%, #C275FF 56.28%, #F36AFF 91.95%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+h2{
+    color: var(--main-white, #FFF);
+text-align: center;
+font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 33.6px */
+color: #FC84FF;
+font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%;
+}
+h3{
+    color: #67C6FF;
+text-align: center;
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 22.4px */
+color: #5B6978;
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%;
+}
+.monetka{
+    width: 400px;
+    height: 400px;
+    background: url(img/image_2022-09-21_21-12-37\ 2.svg);
+    margin: auto;
+    object-fit: contain;
+   
+}
+@media screen and (max-width: 768px){
+    .monetka{
+        width: 400px;
+        height: 400px; 
+       
+    }
+}
+
