@@ -3,11 +3,36 @@ body{
     padding: 0;
 }
 .futerfuter{
-    height: 100%;
+
     width: 100%;
     background-color: black;
+    height: 336px;
+    display: flex;
+    align-items: center;
 }
-.futercarts{
+.footercont{
+    width: 960px;
+    height: 204px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.foot_left{
+    width: 388px;
+    height: 220px;
+    background-color: #FC84FF;
+}
+.foot_right{
+    width: 100px;
+    height: 108px;
+    background-color: #FC84FF;
+}
+.foot_mid{
+    width: 93px;
+    height: 151px;
+    background-color: #FC84FF;
+}
+/* .futercarts{
     margin-top: 62.49px;
     margin-left: 721px;
 }
@@ -68,4 +93,4 @@ margin-bottom: 108.21px;
 .futer7{
     margin-left: 1537px;
     margin-top: 79.41px;
-}
+} */
