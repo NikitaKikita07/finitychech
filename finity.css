@@ -48,9 +48,31 @@ color: #5B6978;
 }
 @media screen and (max-width: 768px){
     .monetka{
-        width: 400px;
-        height: 400px; 
+        width: 200;
+        height: 200px; 
        
     }
 }
+.ass{
+    position: relative;
+}
+.ruka{
+    position: absolute;
+    top: 350px;
+    
+}
+.ruka2{
+  
+    position: absolute;
+    top: 200px;
+    right: 0;
+}
+@media screen and (max-width: 1440px){
+.ruka2{
+    position: absolute;
+    right: 0;
+    width: 665px;
+    height: 270px;
+}
 
+}
