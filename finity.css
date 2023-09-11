@@ -5,7 +5,7 @@
 }
 .pot{
     text-align: center;
-font-size: 64px;
+ font-size: 64px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -15,6 +15,7 @@ background-clip: text;
 -webkit-text-fill-color: transparent;
 }
 .chech{
+    position: absolute;
     width: 2314px;
 height: 39px;
 transform: rotate(1.859deg);
@@ -23,14 +24,28 @@ background: linear-gradient(270deg, #FC84FF -4.35%, #54D1FA 102.87%);
 display: flex; 
 justify-content: center;
 gap: 150px;
+top: 100px;
+}
+.mucha{
+    position: absolute;
+    width: 2918px;
+    height: 39px;
+    transform: rotate(13.682deg);
+    flex-shrink: 0;
+    background: linear-gradient(270deg, #FC84FF -4.35%, #54D1FA 102.87%);
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    top: 470px;
+    margin-right: 300px;
 }
 .dudos{
     width: 1194px;
     height: 991px;
-    margin:auto
+    margin:auto;
 }
-
 .chacha{
+    position: absolute;
     width: 2314px;
     height: 39px;
     transform: rotate(-5.166deg);
@@ -39,4 +54,5 @@ gap: 150px;
     align-items: flex-start;
     gap: 161px;
     background: linear-gradient(270deg, #FC84FF -4.35%, #54D1FA 102.87%);
+    top: 1000px;
 }
