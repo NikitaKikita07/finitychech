@@ -20,7 +20,34 @@ body{
 .foot_left{
     width: 388px;
     height: 220px;
-    background-color: #FC84FF;
+    background-color: #f50909;
+}
+.futer_logon_{
+    width: 181px;
+height: 31.162px;
+align-items: flex-end;
+gap: 11px;
+flex-shrink: 0;
+display: flex;
+}
+.g{
+    font-size: 19px;
+    color: aliceblue;
+}
+.futer_carts_van{
+    width: 32px;
+    height: 28.571px;
+}
+.futer_logon{
+    width: 138px;
+    height: 31px;
+    font-size: 24px;
+}
+.foot_lefttecst{
+    width: 388px;
+    height: 66.345px;
+    color: #ffffff;
+    font-size: 16px;
 }
 .foot_right{
     width: 100px;
