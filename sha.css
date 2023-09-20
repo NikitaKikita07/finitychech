@@ -11,3 +11,11 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
+.agustin{
+    width: 173px;
+height: 92px;
+justify-content: center;
+border-radius: 10px;
+border: 1px solid #151D25;
+background: linear-gradient(180deg, #151D25 0%, #0F1113 100%);
+}
