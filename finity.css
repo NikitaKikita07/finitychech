@@ -70,9 +70,9 @@ color: #5B6978;
 @media screen and (max-width: 1440px){
 .ruka2{
     position: absolute;
-    right: 0;
     width: 665px;
     height: 270px;
+    right: 0;
 }
 
 }
