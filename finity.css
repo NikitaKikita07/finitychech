@@ -31,13 +31,13 @@ ul{
 
 }
 .home{
-    color: white;
+    color: #54D6FF;
 }
 .mar{
     color: white;
 }
 .token{
-    color: #B2A6FD;
+    color: #f6f6f6;
 }
 .fund{
     color: white;
@@ -45,3 +45,23 @@ ul{
 .img{
     display: flex;
 }
+.navlogo{
+    color: white;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+.BuyToken{
+    background: var(--Gradient-1, linear-gradient(104deg, #FC84FF 13.23%, #54D1FA 91.95%));
+    background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.ContactUs{
+    color: white;
+}
+@media screen and (max-width: 900px) {
+    article {
+      padding: 1rem 3rem;
+    }
+  }
