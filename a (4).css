@@ -1,0 +1,87 @@
+.krug1{
+    position: relative;
+    width: 504px;
+    height: 504px;
+    border-radius: 504px;
+    border: 5px solid #535557;
+    margin: auto;
+    margin-top: 300px;
+}
+.krug2{
+    position: relative;
+    width: 284px;
+    height: 284px;
+    border-radius: 284px;
+border: 39px solid #535557;
+margin: auto;
+margin-top: 75px;
+}
+.kart1{
+   text-align: center;
+   margin-top: 90px;
+}
+.kart2{
+    position: absolute;
+    left: 420px;
+    bottom: 340px;
+}
+.kart3{
+    position: absolute;
+    left: 440px;
+    bottom: 140px;
+}
+.kart4{
+    position: absolute;
+    top: -65px;
+    left: 180px;
+}
+.kart5{
+    position: absolute;
+top: 50px;
+}
+.kart6{
+    position: absolute;
+ top: 420px; 
+ left: 320px; 
+}
+.kart7{
+    position: absolute;
+    top: 420px;
+    left: 90px;
+}
+.kart8{
+    position: absolute;
+   top: 240px;
+   left: -60px;
+}
+.kart9{
+    position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.roma{
+    animation: rotateright 10s linear infinite;
+}
+.anim{
+    animation: anim 10s infinite linear ;
+}
+.reanim{
+    animation: rotate2 10s linear infinite;
+}
+
+@keyframes anim{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+@keyframes rotate2{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
