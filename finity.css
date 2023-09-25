@@ -5,6 +5,7 @@ body{
 
 .main_roma{
     background-color: black;
+    height: 1000px;
 }
 h1{
     text-align: center;
@@ -61,18 +62,53 @@ color: #5B6978;
     top: 350px;
     
 }
+.ruka22{
+    width: 650px;
+    height: 470px;
+}
+.ruka11{
+    width: 650px;
+    height: 470px;
+}
 .ruka2{
   
     position: absolute;
     top: 200px;
     right: 0;
 }
-@media screen and (max-width: 1440px){
-.ruka2{
+@media screen and (max-width: 1640px){
+.ruka22{
+    width: 500px;
     position: absolute;
-    width: 665px;
     height: 270px;
     right: 0;
 }
 
 }
+@media screen and (max-width: 1640px){
+    .ruka11{
+        width: 500px;
+        position: absolute;
+        height: 270px;
+        
+    }
+    
+    }
+    @media screen and (max-width: 1440px){
+        .ruka22{
+            width: 400px;
+            position: absolute;
+            height: 270px;
+            right: 0;
+        }
+        
+        }
+        @media screen and (max-width: 1440px){
+            .ruka11{
+                width: 400px;
+                position: absolute;
+                height: 270px;
+               
+            }
+            
+            }
