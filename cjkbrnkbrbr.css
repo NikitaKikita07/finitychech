@@ -108,6 +108,13 @@ color: darkgray;
     align-items: flex-start;
     gap: 30px;
 }
+.rtu{
+    display: flex;
+    width: 306.287px;
+    height: 24.125px;
+    align-items: flex-start;
+    gap: 30px;
+}
 .y{
     width: 24px;
     height: 24px;
@@ -141,12 +148,12 @@ color: darkgray;
         margin: auto;
     }
 }
-@media screen and (max-width: 970px){
+@media screen and (max-width: 770px){
     .r{
         display: none;
     }
 }
-@media screen and (min-width: 970px){
+@media screen and (min-width: 770px){
     .r{
         display: flex;
     }
