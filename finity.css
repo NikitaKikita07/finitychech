@@ -23,33 +23,41 @@ ul{
     display: flex;
     height: 20px;
     gap: 20px;
+    display: none;
 }
 .g2{
   display: flex;
   list-style: none;
   gap: 16px ;
+  display: none;
 
 }
 .home{
     color: #54D6FF;
+    display: none;
 }
 .mar{
     color: white;
+    display: none;
 }
 .token{
     color: #f6f6f6;
+    display: none;
 }
 .fund{
     color: white;
+    display: none;
 }
 .img{
     display: flex;
 }
 .navlogo{
+    height: 60px;
     color: white;
     font-size: 24px;
     display: flex;
     align-items: center;
+
 }
 .BuyToken{
     background: var(--Gradient-1, linear-gradient(104deg, #FC84FF 13.23%, #54D1FA 91.95%));
@@ -66,7 +74,8 @@ ul{
     }
   }
   @media screen and (max-width: 768px) {
-    article {
+    .navlogo                              {
       padding: 1rem 3rem;
+      margin: auto;
     }
   }
