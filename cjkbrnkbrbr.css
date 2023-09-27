@@ -134,14 +134,30 @@ color: darkgray;
     .r{
         margin: auto;
     }
+    .futer_logon_{
+        margin: auto;
+    }
+    .rtu{
+        margin: auto;
+    }
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 970px){
     .r{
         display: none;
     }
 }
-@media screen and (min-width: 900px){
+@media screen and (min-width: 970px){
     .r{
+        display: flex;
+    }
+}
+@media screen and (min-width: 768px){
+    .rtu{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px){
+    .rtu{
         display: flex;
     }
 }
