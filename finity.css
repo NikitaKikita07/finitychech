@@ -107,17 +107,14 @@ font-weight: 600;
     height: 270px;
     right: 0;
 }
+.ruka11{
+    width: 500px;
+    position: absolute;
+    height: 270px;
+    
+}
 
 }
-@media screen and (max-width: 1640px){
-    .ruka11{
-        width: 500px;
-        position: absolute;
-        height: 270px;
-        
-    }
-    
-    }
     @media screen and (max-width: 1440px){
         .ruka22{
             width: 400px;
@@ -125,17 +122,14 @@ font-weight: 600;
             height: 270px;
             right: 0;
         }
+        .ruka11{
+            width: 400px;
+            position: absolute;
+            height: 270px;
+           
+        }
         
         }
-        @media screen and (max-width: 1440px){
-            .ruka11{
-                width: 400px;
-                position: absolute;
-                height: 270px;
-               
-            }
-            
-            }
             @media screen and (max-width: 768px){
                 .ruka22{
                     width: 400px;
@@ -146,17 +140,43 @@ font-weight: 600;
                     left: -290px;
                     
                 }
+                .ruka11{
+                    width: 400px;
+                    position: absolute;
+                    height: 270px;
+                    transform: rotate(-40deg);                   
+                    top: 200px;
+                    left: -100px;
+                }
                 
                 }
-                @media screen and (max-width: 768px){
-                    .ruka11{
-                        width: 400px;
-                        position: absolute;
-                        height: 270px;
-                        transform: rotate(-40deg);                   
-                        top: 200px;
-                        left: -100px;
-                    }
-                    
-                    }
+               
+                    @media screen and (max-width: 428px){
+                        .ruka22{
+                            width: 300px;
+                            height: 270px;
+                            transform: rotate(-40deg);
+                            top: 90px;
+                            right: 0;
+                            left: -220px;
+                            
+                        }
+                        .ruka11{
+                            width: 300px;
+                            position: absolute;
+                            height: 270px;
+                            transform: rotate(-40deg);                   
+                            top: 250px;
+                            left: -100px;
+                        }
+                        
+                        }
+                            @media screen and (max-width: 428px){
+                                .monetka{
+                                    width: 300;
+                                    height: 300px; 
+                                    margin-top: 70px;
+                                   
+                                }
+                            }
         
