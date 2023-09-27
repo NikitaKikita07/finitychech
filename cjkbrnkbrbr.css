@@ -106,6 +106,16 @@ color: darkgray;
     align-items: flex-start;
     gap: 30px;
 }
+.y{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+.i{
+    width: 31.487px;
+    height: 24px;
+    flex-shrink: 0;
+}
 /* .futercarts{
     margin-top: 62.49px;
     margin-left: 721px;
