@@ -99,6 +99,13 @@ height: 24px;
 flex-shrink: 0;
 color: darkgray;
 }
+.r{
+    display: flex;
+    width: 306.287px;
+    height: 24.125px;
+    align-items: flex-start;
+    gap: 30px;
+}
 /* .futercarts{
     margin-top: 62.49px;
     margin-left: 721px;
