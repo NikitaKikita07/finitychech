@@ -36,6 +36,7 @@ margin-top: 77px;
     align-items: center;
     margin-right: 10px;
     position: relative;
+    margin: auto;
 }
 .gray{
 
@@ -147,6 +148,12 @@ display: flex;
     width: 93px;
     height: 151px;
     background-color: #FC84FF;
+}
+@media screen and (max-width: 1280px) {
+    .text_boxik{
+        width: 95%;
+    }
+    
 }
 /* .futercarts{
     margin-top: 62.49px;
