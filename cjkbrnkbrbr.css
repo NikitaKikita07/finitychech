@@ -4,15 +4,14 @@ body{
 }
 .futerfuter{
 
-    width: 100%;
+    width: 84%;
+    padding: 0 8%;
     background-color: black;
-    height: 336px;
     display: flex;
     align-items: center;
 }
 .footercont{
     width: 960px;
-    height: 204px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -58,6 +57,9 @@ display: flex;
     width: 93px;
     height: 151px;
     background-color: #000000;
+}
+.foot_mid > ul, .foot_right > ul{
+    padding-inline-start: 0;
 }
 .foot_mid_tu{
     color:  rgb(255, 255, 255);
@@ -116,65 +118,11 @@ color: darkgray;
     height: 24px;
     flex-shrink: 0;
 }
-/* .futercarts{
-    margin-top: 62.49px;
-    margin-left: 721px;
+@media screen and (max-width: 768px) {
+    .footercont{
+        display: block;
+    }
+    .foot_left{
+        margin: auto;
+    }
 }
-.futertecst{
-color: var(--main-white, #FFF);
-}
-.futertecst2{
-    width: 388px;
-    height: 66.345px;
-    flex-shrink: 0;
-    color: var(--main-white, #FFF);
-    font-family: Gilroy;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 140%;
-}
-.leftulfuter{
-    font-size: 16px;
-    font-weight: 500;
-    display: flex;
-    width: 93px;
-    height: 151.789px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 25px;
-    flex-shrink: 0;
-    color: azure;
-}
-.futercarts3{
-margin-left: 1289px;
-margin-top: 79.77px;
-}
-.futercarts4{
-    margin-left: 1289px;
-margin-top: 79.77px;
-margin-bottom: 108.21px;
-    display: flex;
-    width: 100px;
-    height: 107.559px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 25px;
-    flex-shrink: 0;
-    color: azure;
-}
-.futer9{
-    font-family: Gilroy;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    background: var(--Gradient-1, linear-gradient(104deg, #FC84FF 13.23%, #54D1FA 91.95%));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.futer7{
-    margin-left: 1537px;
-    margin-top: 79.41px;
-} */
