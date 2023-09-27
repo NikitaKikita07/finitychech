@@ -125,4 +125,23 @@ color: darkgray;
     .foot_left{
         margin: auto;
     }
+    .foot_mid{
+        margin: auto;
+    }
+    .foot_right{
+        margin: auto;
+    }
+    .r{
+        margin: auto;
+    }
+}
+@media screen and (max-width: 900px){
+    .r{
+        display: none;
+    }
+}
+@media screen and (min-width: 900px){
+    .r{
+        display: flex;
+    }
 }
