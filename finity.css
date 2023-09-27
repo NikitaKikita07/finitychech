@@ -34,13 +34,12 @@ margin-top: 77px;
     display: flex;
     align-items: center;
     margin-right: 10px;
+    position: relative;
 }
-.text_box1{
-    width: 1205px;
-    height: 82px;
+.gray{
+
    background-color: #242d35;
-    flex-shrink: 0;
-    margin-left: 176px; 
+
 }
 .text_box2{
     width: 1205px;
@@ -78,5 +77,15 @@ margin-top: 77px;
 }
 .text1lll{
  color:white ;
- 
+ margin-left: 35px;
+}
+.text2lll{
+    color:white ;
+ margin-left: 35px;
+}
+.caret{
+    top: 33px;
+   right: 20px;
+    position: absolute;
+
 }
