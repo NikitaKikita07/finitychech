@@ -95,12 +95,6 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
-.u{
-    width: 28.8px;
-height: 24px;
-flex-shrink: 0;
-color: darkgray;
-}
 .r{
     display: flex;
     width: 306.287px;
@@ -108,12 +102,11 @@ color: darkgray;
     align-items: flex-start;
     gap: 30px;
 }
-.rtu{
-    display: flex;
-    width: 306.287px;
-    height: 24.125px;
-    align-items: flex-start;
-    gap: 30px;
+.u{
+    width: 28.8px;
+    height: 24px;
+    flex-shrink: 0;
+    color: darkgray;
 }
 .y{
     width: 24px;
@@ -124,6 +117,13 @@ color: darkgray;
     width: 31.487px;
     height: 24px;
     flex-shrink: 0;
+}
+.rtu{
+    display: flex;
+    width: 285px;
+    height: 24.125px;
+    align-items: flex-start;
+    gap: 30px;
 }
 @media screen and (max-width: 768px) {
     .footercont{
