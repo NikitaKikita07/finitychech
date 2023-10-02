@@ -1,0 +1,242 @@
+
+.sho{
+    width:100%;
+    height: 1458px;
+    background-color: rgb(0, 0, 0);
+}
+.pot{
+    text-align: center;
+ font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main_roma{
+    background-color: black;
+   
+}
+h1{
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    background: linear-gradient(104deg, #54D6FF 13.23%, #C275FF 56.28%, #F36AFF 91.95%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.chech{
+    position: absolute;
+    width: 2314px;
+height: 39px;
+transform: rotate(1.859deg);
+flex-shrink: 0;
+background: linear-gradient(270deg, #FC84FF -4.35%, #54D1FA 102.87%);
+display: flex; 
+justify-content: center;
+gap: 150px;
+top: 100px;
+}
+.mucha{
+    position: absolute;
+    width: 2918px;
+    height: 39px;
+    transform: rotate(13.682deg);
+    flex-shrink: 0;
+    background: linear-gradient(270deg, #FC84FF -4.35%, #54D1FA 102.87%);
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    top: 470px;
+    margin-right: 300px;
+}
+.dudos{
+    width: 1194px;
+    height: 991px;
+    margin:auto;
+}
+.chacha{
+    position: absolute;
+    width: 2314px;
+    height: 39px;
+    transform: rotate(-5.166deg);
+    flex-shrink: 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 161px;
+    background: linear-gradient(270deg, #FC84FF -4.35%, #54D1FA 102.87%);
+    top: 1000px;
+}
+
+
+}
+h2{
+    color: var(--main-white, #FFF);
+text-align: center;
+font-family: Gilroy;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 33.6px */
+color: #FC84FF;
+}
+h3{
+    color: #67C6FF;
+text-align: center;
+font-family: Gilroy;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; /* 22.4px */
+color: #5B6978;
+
+}
+.monetka{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+   
+}
+@media screen and (max-width: 768px){
+    .monetka{
+        width: 400;
+        height: 400px; 
+        margin-top: 70px;
+       
+    }
+}
+.ass{
+    position: relative;
+}
+.ruka{
+    position: absolute;
+    top: 350px;
+    
+}
+.ruka22{
+    width: 650px;
+    height: 470px;
+}
+.ruka11{
+    width: 650px;
+    height: 470px;
+}
+.ruka2{
+  
+    position: absolute;
+    top: 200px;
+    right: 0;
+}
+.kn{
+    position: relative;
+    width: 300px;
+height: 60px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 3px solid var(--Gradient-1, #FC84FF);
+box-shadow: 0px 2px 12px 0px rgba(148, 180, 252, 0.37);
+margin: auto;
+margin-top: 220px;
+}
+.tk{
+    position: absolute;
+    left: 85px;
+    top: 10px;
+    background: var(--Gradient-1, linear-gradient(104deg, #FC84FF 13.23%, #54D1FA 91.95%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 30px;
+font-weight: 600;
+
+}
+@media screen and (max-width: 1640px){
+.ruka22{
+    width: 500px;
+    position: absolute;
+    height: 270px;
+    right: 0;
+}
+.ruka11{
+    width: 500px;
+    position: absolute;
+    height: 270px;
+    
+}
+
+}
+    @media screen and (max-width: 1440px){
+        .ruka22{
+            width: 400px;
+            position: absolute;
+            height: 270px;
+            right: 0;
+        }
+        .ruka11{
+            width: 400px;
+            position: absolute;
+            height: 270px;
+           
+        }
+        
+        }
+            @media screen and (max-width: 768px){
+                .ruka22{
+                    width: 400px;
+                    height: 270px;
+                    transform: rotate(-40deg);
+                    top: 50px;
+                    right: 0;
+                    left: -290px;
+                    
+                }
+                .ruka11{
+                    width: 400px;
+                    position: absolute;
+                    height: 270px;
+                    transform: rotate(-40deg);                   
+                    top: 200px;
+                    left: -100px;
+                }
+                
+                }
+               
+                    @media screen and (max-width: 428px){
+                        .ruka22{
+                            width: 300px;
+                            height: 270px;
+                            transform: rotate(-40deg);
+                            top: 90px;
+                            right: 0;
+                            left: -220px;
+                            
+                        }
+                        .ruka11{
+                            width: 300px;
+                            position: absolute;
+                            height: 270px;
+                            transform: rotate(-40deg);                   
+                            top: 250px;
+                            left: -100px;
+                        }
+                        
+                        }
+                            @media screen and (max-width: 428px){
+                                .monetka{
+                                    width: 300;
+                                    height: 300px; 
+                                    margin-top: 70px;
+                                   
+                                }
+                            }
+        
+
