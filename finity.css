@@ -98,8 +98,8 @@ margin-top: 77px;
 .van{
     width: 380px;
     height: 220px;
-    }
-    .tu{
+}
+.tu{
         width: 342px;
         color: #C1ABFF;
         font-family: Gilroy;
@@ -107,8 +107,8 @@ margin-top: 77px;
         font-style: normal;
         font-weight: 700;
         line-height: 140%; 
-    }
-    .tre{
+}
+.tre{
         width: 369px;
         color: var(--main-white, #FFF);
     font-family: Gilroy;
@@ -116,7 +116,7 @@ margin-top: 77px;
     font-style: normal;
     font-weight: 500;
     line-height: 140%; 
-    }
+}
 .krug1{
     position: relative;
     width: 504px;
@@ -124,7 +124,6 @@ margin-top: 77px;
     border-radius: 504px;
     border: 5px solid #535557;
     margin: auto;
-
 }
 .krug2{
     position: relative;
