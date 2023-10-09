@@ -129,22 +129,7 @@ line-height: normal;
     .footercont{
         display: block;
     }
-    .foot_left{
-        margin: auto;
-    }
-    .foot_mid{
-        margin: auto;
-    }
-    .foot_right{
-        margin: auto;
-    }
-    .r{
-        margin: auto;
-    }
-    .futer_logon_{
-        margin: auto;
-    }
-    .rtu{
+    .auto{
         margin: auto;
     }
 }
